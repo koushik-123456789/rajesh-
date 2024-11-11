@@ -4,9 +4,6 @@ FROM node:14
 # Set the working directory
 WORKDIR /app
 
-# Copy the package.json file to install dependencies
-COPY package.json .
-
 # Install dependencies
 RUN npm install
 
